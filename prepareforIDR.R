@@ -1,7 +1,6 @@
 #!/usr/bin/env Rscript
 
 # prepare for IDR
-source("batch-consistency-analysis-wrapper.r")
 source("functions-all-clayton-12-13.r")
 source("granges-functions.r")
 
