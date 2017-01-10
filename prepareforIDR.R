@@ -1,9 +1,9 @@
 #!/usr/bin/env Rscript
 
 # prepare for IDR
-source("/ifs/e63data/leslielab/alvaro/Projects/encode/repos/encodeepigenomics/idr/batch-consistency-analysis-wrapper.r")
-source("/ifs/e63data/leslielab/alvaro/Projects/encode/repos/encodeepigenomics/idr/functions-all-clayton-12-13.r")
-source("/ifs/e63data/leslielab/alvaro/Projects/encode/repos/encodeepigenomics/idr/granges-functions.r")
+source("batch-consistency-analysis-wrapper.r")
+source("functions-all-clayton-12-13.r")
+source("granges-functions.r")
 
 consistency.analysis <- function (peaktable1, peaktable2, half.width=NULL,
                                   overlap.ratio=0, is.broadpeak=FALSE, sig.value, chr.size) {
